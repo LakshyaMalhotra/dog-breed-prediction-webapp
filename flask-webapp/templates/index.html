@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dog Breed Classifier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("static/dog_background.jpg");
+            background-color: #cccccc;
+            height: 800px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .h4 {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: lighter;
+        }
+
+        input[type=file] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: block;
+            width: 200px;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+            border-style: solid white;
+            border-width: 2px;
+            border-radius: 2px;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: block;
+            width: 200px;
+            font-size: 1.5em;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: #DC143C;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            /* padding: 1; */
+            font-size: 12px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="text-center">
+    <div class="hero-image">
+        <div class="hero-text">
+            <form class="form-signin" method="post" enctype="multipart/form-data">
+                <h1 style="font-size:50px" class="h3 mb-3 font-weight-normal">What's the Dog Breed?</h1>
+                <h2>Upload a picture of a dog to see what breed it is!</h2>
+                <h4 class="h4">If a human image is detected, it will output the
+                    dog breed which is most resembling.
+                </h4>
+                <input type="file" name="file" class="form-control-file" id="inputfile">
+                <br />
+                <input type="submit" value="predict">
+                <footer>
+                    <p>Only jpeg files are supported.</p>
+                </footer>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+# directories containing images
+dog_images
+lfw
+
+
+# Meta data
+__MACOSX
+__pycache__
+.idea
+*.pyc
+.vscode
+
+# Saved model
+*.pt
+
+.ipynb_checkpoints
