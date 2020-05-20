@@ -11,6 +11,6 @@ __pycache__
 .vscode
 
 # Saved model
-*.pt
+model_scratch.pt
 
 .ipynb_checkpoints
