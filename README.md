@@ -30,7 +30,7 @@ The main code is available in the __jupyter-notebook__. There are some helper mo
 ## Running Locally
 ### Clone the repo
 ```
-$ git clone https://github.com/LakshyaMalhotra/deep-learning-applications.git
+$ git clone https://github.com/LakshyaMalhotra/capstone-project.git
 ```
 ### Install Requirements
 __Using pip:__
@@ -76,5 +76,7 @@ __Human-prediction:__
 2. [Video on deploying PyTorch models on flask](https://www.youtube.com/watch?v=eI8m0-NWCys&t=4758s)
 3. [Resnet paper](https://arxiv.org/abs/1512.03385)
 4. [Weight initialization](https://pytorch.org/docs/stable/nn.init.html#torch.nn.init.kaiming_normal_)
+5. [CSS Styling](https://heartbeat.fritz.ai/brilliant-beginners-guide-to-model-deployment-133e158f6717)
+6. [Webapp background](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperset.com%2Fw%2Ffull%2Fd%2F6%2Fc%2F289442.jpg&imgrefurl=https%3A%2F%2Fwallpaperset.com%2Fcool-dogs-wallpapers&tbnid=QDfuwFpYtHBB3M&vet=12ahUKEwjq2qHB1MPpAhXEZ60KHTWgBEoQMygRegUIARC2Ag..i&docid=NkktpINYB6WeEM&w=1920&h=1280&q=dog%20wallpapers&ved=2ahUKEwjq2qHB1MPpAhXEZ60KHTWgBEoQMygRegUIARC2Ag)
 
 
